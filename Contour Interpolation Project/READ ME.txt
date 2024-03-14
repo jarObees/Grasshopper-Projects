@@ -1,0 +1,22 @@
+Linear Contour Interpolation Project
+
+USAGE
+	Input Data: Copy initial grid point spot elevations from the bottom-left to top-right order.
+		    Every new data entry must be seperated by an enter. (\n)
+		ex.
+			[data-entry A]
+			[data-entry B]
+			[data-entry C]
+			[data-entry D]
+		
+		^ This would fill out the spot-elevations organized on a graph that would look like:
+			
+			 -----
+			| C D |
+			| A B |
+                         -----
+	
+	Run Interpolation: See notes on grasshopper definition.
+
+NOTE
+	Grid Completeness: Grid MUST be filled with data-points. Leaving gaps in the data may result in inaccurate contour lines.
